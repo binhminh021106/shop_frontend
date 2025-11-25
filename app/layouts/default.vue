@@ -1,11 +1,11 @@
 <template>
-  <div class="main-wrapper">
+  <div>
     <UserAppHeader />
-    
-    <div class="content">
+
+    <div>
       <slot />
     </div>
-    
+
     <UserAppFooter />
   </div>
 </template>
